@@ -1,0 +1,19 @@
+[project]
+name = "xdaemon"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "sunfkny", email = "30853461+sunfkny@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "loguru>=0.7.2",
+]
+
+[project.scripts]
+xdaemon = "xdaemon:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
